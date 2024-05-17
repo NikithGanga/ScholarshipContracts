@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* App container */
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b5998;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+.main-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #2d4373;
+}
+
+/* Text styles */
+.text-muted {
+  color: #6c757d;
+}
+
+.lead {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.small-text {
+  font-size: 0.8em;
+}
